@@ -6,14 +6,12 @@ Distributed systems engineer and tech lead. I build the parts of a system people
 
 Traffic and the edge
 
-- [steer](https://github.com/laiwf94/steer): an HTTP load balancer that keeps serving through failures, with health checks, outlier ejection, priority failover, retry budgets and Maglev hashing. Go.
+- [edgefront](https://github.com/laiwf94/edgefront): a self-hosted application edge in one Rust binary, bringing together an HTTP cache, a load balancer and a rate limiter. Rust.
 - [relink](https://github.com/laiwf94/relink): a link shortener whose redirects run at the edge from a core compiled to WebAssembly, backed by Postgres at the origin. Rust.
 
 Identity and access
 
-- [grantd](https://github.com/laiwf94/grantd): an authorization service in the style of Google's Zanzibar, with a schema language, consistent snapshots and a crash-safe write-ahead log. Go, standard library only.
-- [wicket](https://github.com/laiwf94/wicket): single sign-on in front of any app, OIDC and SAML through nginx, Traefik or Envoy forward-auth. Go.
-- [toolgate](https://github.com/laiwf94/toolgate): a security gateway for AI agent tool calls over MCP, with default-deny policy, approvals, rate limits and a tamper-evident audit log. Go.
+- [authz](https://github.com/laiwf94/authz): an identity and access platform with Zanzibar-style authorization, OIDC and SAML single sign-on, and a security gateway for AI agent tool calls over MCP. Go.
 
 Money
 
